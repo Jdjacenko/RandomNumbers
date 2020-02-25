@@ -12,7 +12,11 @@ public class RandomNumber {
 
             int result = (a + b + c);
 
-            System.out.println("Total amount: " + (result));
+            System.out.println("You win when all 3 dices show the same number");
+            System.out.println("");
+            System.out.println("First number: " + a);
+            System.out.println("Second number: " + b);
+            System.out.println("Third number: " + c);
 
         }
     }
