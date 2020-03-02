@@ -18,8 +18,11 @@ import java.util.Scanner;
                 while (true) {
                     b = scanner.nextInt();
 
-                    if (a != b) {
-                        System.out.println("Tray again");
+                    if (a > b) {
+                        System.out.println("Yor number is smaller");
+                        continue;
+                    } else if (a < b) {
+                        System.out.println("Your number is bigger");
                         continue;
                     }
                     break;
